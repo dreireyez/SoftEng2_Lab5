@@ -2,7 +2,7 @@ public class BasicOrderProcessor implements OrderProcessor {
     @Override
     public void calculateTotal(double price, int quantity) {
         double total = price * quantity;
-        System.out.println("Order total is " + String.format("$ %.2f",total));
+        System.out.println("Order total: " + String.format("$ %.2f",total));
     }
 
     @Override
